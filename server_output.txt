@@ -1,0 +1,75 @@
+BLOCKSIZE = 32
+64*64 64
+0.208288ms - native
+0.018048ms - modified native
+0.017408ms - with shared memory
+
+128*64 64
+0.202912ms - native
+0.016416ms - modified native
+0.017216ms - with shared memory
+
+64*64 128
+0.3784ms - native
+0.023168ms - modified native
+0.025152ms - with shared memory
+
+512*64 64
+0.213632ms - native
+0.01696ms - modified native
+0.01776ms - with shared memory
+
+256*128 128
+0.413216ms - native
+0.02464ms - modified native
+0.026112ms - with shared memory
+
+128*128 512
+1.54496ms - native
+0.06336ms - modified native
+0.074272ms - with shared memory
+
+512*256 256
+2.67808ms - native
+0.070048ms - modified native
+0.079168ms - with shared memory
+
+256*256 1024
+5.64202ms - native
+0.133152ms - modified native
+0.145536ms - with shared memory
+
+2048*512 512
+43.9366ms - native
+0.913728ms - modified native
+1.084ms - with shared memory
+
+1024*1024 1024
+81.1161ms - native
+1.52563ms - modified native
+1.81974ms - with shared memory
+
+2048*1024 1024
+140.288ms - native
+2.95037ms - modified native
+3.51277ms - with shared memory
+
+2048*1024 2048
+278.962ms - native
+5.9183ms - modified native
+7.2761ms - with shared memory
+
+2048*1024 4096
+521.78ms - native
+12.3264ms - modified native
+14.6011ms - with shared memory
+
+8192*1024 8192
+4360.23ms - native
+113.047ms - modified native
+100.149ms - with shared memory
+
+
+real    0m8.942s
+user    0m6.393s
+sys     0m2.494s
